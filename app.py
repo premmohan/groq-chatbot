@@ -16,7 +16,8 @@ st.caption("A chatbot that remembers context and trims old messages.")
 # 3. Initialize the Groq LLM
 llm = ChatGroq(
     model="llama-3.1-8b-instant",
-    groq_api_key=os.getenv("GROQ_API_KEY")
+    #groq_api_key=os.getenv("GROQ_API_KEY")
+    groq_api_key = st.secrets["GROQ_API_KEY"]
 )
 
 # 4. Initialize Session State for Chat History
