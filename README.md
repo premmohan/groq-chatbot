@@ -1,5 +1,7 @@
 # Groq Chatbot with Conversation History
 
+Live demo: [https://groq-chatbot-prem-mohan.streamlit.app/]
+
 A Streamlit-based chatbot built with **Groq** and **LangChain** that supports **conversation history**, understands **follow-up questions**, and provides **context-aware responses**.
 
 ## Features
